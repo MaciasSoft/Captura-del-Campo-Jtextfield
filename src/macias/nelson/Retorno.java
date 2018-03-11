@@ -9,7 +9,6 @@ public class Retorno extends JDialog{
 
     private JButton btn_salirVentana;
 
-
     public Retorno()
     {
         super();
@@ -34,11 +33,8 @@ public class Retorno extends JDialog{
         btn_salirVentana.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // p.setDefaultCloseOperation
-
-                //setVisible(false);
                 dispose();
-                Pantalla1 pa=new Pantalla1();
+
 
 
             }

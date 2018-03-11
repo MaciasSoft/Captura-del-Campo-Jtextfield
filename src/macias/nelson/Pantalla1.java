@@ -20,11 +20,6 @@ public class Pantalla1 extends JFrame {
         super("Pantalla 1");
         this.getContentPane().setBackground(Color.cyan);
 
-        /*JDesktopPane desktop = new JDesktopPane();
-        this.getContentPane().add(desktop);
-        JInternalFrame internal = new JInternalFrame();
-        desktop.add(internal);*/
-
         lbl_entrada = new JLabel("Entrada:");
         lbl_entrada.setBounds(20, 30, 60, 20);
 
@@ -36,7 +31,6 @@ public class Pantalla1 extends JFrame {
 
         btn_salir = new JButton("Salir");
         btn_salir.setBounds(270, 80, 80, 30);
-
 
         FlowLayout f = new FlowLayout();
         setLayout(null);
